@@ -53,3 +53,5 @@ module.exports = {
   pool,
   getStats: () => pool.getStats(),
 };
+
+console.log("[SINGLETON TEST] db.js module loaded - singleton created");
